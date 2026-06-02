@@ -1,0 +1,67 @@
+# Python virtual environments
+venv/
+.env/
+.venv/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter / notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+cron.log
+
+# Generated data files
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.xlsx
+
+# Keep data folder structure if needed
+!data/.gitkeep
+
+# PostgreSQL / database dumps
+*.dump
+*.sql.gz
+*.backup
+
+# Docker volumes / local mounts
+postgres_data/
+pgdata/
+docker-data/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+!.vscode/extensions.json
+
+# PyCharm / JetBrains
+.idea/
+
+# Test / coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Local notes
+notes/
+scratch/

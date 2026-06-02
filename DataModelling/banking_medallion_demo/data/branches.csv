@@ -1,0 +1,5 @@
+branch_id,branch_code,branch_name,city,province
+1,KTM001,Kathmandu Main Branch,Kathmandu,Bagmati
+2,LTP001,Lalitpur Branch,Lalitpur,Bagmati
+3,PKR001,Pokhara Branch,Pokhara,Gandaki
+4,BRT001,Biratnagar Branch,Biratnagar,Koshi
